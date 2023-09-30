@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fairyland.gif);
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the form container */
+#form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-image:url(fantasy-fairy.gif);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 158, 158, 0.2);
+}
+
+/* Style form inputs and buttons */
+input[type="text"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+/* Style buttons individually */
+#postButton {
+    background-color: #af814c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#getButton {
+    background-color: #e5f321;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#putButton {
+    background-color: #c300ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteButton {
+    background-color: #220e0d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add some spacing to the result container */
+#results {
+    margin-top: 20px;
+}
+
+/* Style result container */
+#results p {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}                              
+
